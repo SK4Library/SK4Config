@@ -7,9 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873FBF591E149995007EACDC /* ConfigValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FBF581E149995007EACDC /* ConfigValueTests.swift */; };
+		873FBF5D1E149DD3007EACDC /* ConfigAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FBF5C1E149DD3007EACDC /* ConfigAdminTests.swift */; };
 		87A2D0FA1E1231F200236BEC /* SK4Config.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2D0F01E1231F200236BEC /* SK4Config.framework */; };
 		87A2D0FF1E1231F200236BEC /* SK4ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */; };
 		87A2D1011E1231F200236BEC /* SK4Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A2D0F31E1231F200236BEC /* SK4Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A2D15C1E12373100236BEC /* SK4ConfigAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1501E12373100236BEC /* SK4ConfigAction.swift */; };
+		87A2D15D1E12373100236BEC /* SK4ConfigBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1511E12373100236BEC /* SK4ConfigBool.swift */; };
+		87A2D15E1E12373100236BEC /* SK4ConfigCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1521E12373100236BEC /* SK4ConfigCGFloat.swift */; };
+		87A2D15F1E12373100236BEC /* SK4ConfigDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1531E12373100236BEC /* SK4ConfigDate.swift */; };
+		87A2D1601E12373100236BEC /* SK4ConfigGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1541E12373100236BEC /* SK4ConfigGenerics.swift */; };
+		87A2D1611E12373100236BEC /* SK4ConfigIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1551E12373100236BEC /* SK4ConfigIndex.swift */; };
+		87A2D1621E12373100236BEC /* SK4ConfigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1561E12373100236BEC /* SK4ConfigInt.swift */; };
+		87A2D1631E12373100236BEC /* SK4ConfigMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1571E12373100236BEC /* SK4ConfigMulti.swift */; };
+		87A2D1641E12373100236BEC /* SK4ConfigString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1581E12373100236BEC /* SK4ConfigString.swift */; };
+		87A2D1651E12373100236BEC /* SK4ConfigUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1591E12373100236BEC /* SK4ConfigUIColor.swift */; };
+		87A2D1661E12373100236BEC /* SK4ConfigUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D15A1E12373100236BEC /* SK4ConfigUInt64.swift */; };
+		87A2D1671E12373100236BEC /* SK4ConfigValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D15B1E12373100236BEC /* SK4ConfigValue.swift */; };
+		87A2D1761E12375400236BEC /* SK4ConfigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1691E12375400236BEC /* SK4ConfigCell.swift */; };
+		87A2D1771E12375400236BEC /* SK4ConfigCellChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D16A1E12375400236BEC /* SK4ConfigCellChoice.swift */; };
+		87A2D1781E12375400236BEC /* SK4ConfigCellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D16B1E12375400236BEC /* SK4ConfigCellColor.swift */; };
+		87A2D1791E12375400236BEC /* SK4ConfigCellColorIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D16C1E12375400236BEC /* SK4ConfigCellColorIndex.swift */; };
+		87A2D17A1E12375400236BEC /* SK4ConfigCellDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D16D1E12375400236BEC /* SK4ConfigCellDate.swift */; };
+		87A2D17B1E12375400236BEC /* SK4ConfigCellDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D16E1E12375400236BEC /* SK4ConfigCellDirectory.swift */; };
+		87A2D17C1E12375400236BEC /* SK4ConfigCellExec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D16F1E12375400236BEC /* SK4ConfigCellExec.swift */; };
+		87A2D17D1E12375400236BEC /* SK4ConfigCellLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1701E12375400236BEC /* SK4ConfigCellLabel.swift */; };
+		87A2D17E1E12375400236BEC /* SK4ConfigCellPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1711E12375400236BEC /* SK4ConfigCellPicker.swift */; };
+		87A2D17F1E12375400236BEC /* SK4ConfigCellSegmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1721E12375400236BEC /* SK4ConfigCellSegmented.swift */; };
+		87A2D1801E12375400236BEC /* SK4ConfigCellSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1731E12375400236BEC /* SK4ConfigCellSwitch.swift */; };
+		87A2D1811E12375400236BEC /* SK4ConfigCellTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1741E12375400236BEC /* SK4ConfigCellTextField.swift */; };
+		87A2D1821E12375400236BEC /* SK4ConfigCellTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1751E12375400236BEC /* SK4ConfigCellTextView.swift */; };
+		87A2D1891E12379C00236BEC /* SK4ConfigChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1841E12379C00236BEC /* SK4ConfigChoiceViewController.swift */; };
+		87A2D18A1E12379C00236BEC /* SK4ConfigColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1851E12379C00236BEC /* SK4ConfigColorViewController.swift */; };
+		87A2D18B1E12379C00236BEC /* SK4ConfigDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1861E12379C00236BEC /* SK4ConfigDateViewController.swift */; };
+		87A2D18C1E12379C00236BEC /* SK4ConfigPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1871E12379C00236BEC /* SK4ConfigPickerViewController.swift */; };
+		87A2D18D1E12379C00236BEC /* SK4ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1881E12379C00236BEC /* SK4ConfigViewController.swift */; };
+		87A2D1921E1237DE00236BEC /* SK4ConfigTableAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D18F1E1237DE00236BEC /* SK4ConfigTableAdmin.swift */; };
+		87A2D1931E1237DE00236BEC /* SK4ConfigTableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1901E1237DE00236BEC /* SK4ConfigTableSection.swift */; };
+		87A2D1941E1237DE00236BEC /* SK4ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1911E1237DE00236BEC /* SK4ConfigTableViewController.swift */; };
+		87A2D1991E12381200236BEC /* SK4ConfigAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1961E12381200236BEC /* SK4ConfigAdmin.swift */; };
+		87A2D19A1E12381200236BEC /* SK4ConfigSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1971E12381200236BEC /* SK4ConfigSection.swift */; };
+		87A2D19B1E12381200236BEC /* SK4ConfigUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1981E12381200236BEC /* SK4ConfigUserDefaults.swift */; };
+		87A2D19C1E12386E00236BEC /* SK4Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2D14C1E1236BA00236BEC /* SK4Library.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +59,68 @@
 			remoteGlobalIDString = 87A2D0EF1E1231F200236BEC;
 			remoteInfo = SK4Config;
 		};
+		87A2D14B1E1236BA00236BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 874288591DFF79E100E13B40;
+			remoteInfo = SK4Library;
+		};
+		87A2D14D1E1236BA00236BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 874288621DFF79E100E13B40;
+			remoteInfo = SK4LibraryTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		873FBF581E149995007EACDC /* ConfigValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigValueTests.swift; sourceTree = "<group>"; };
+		873FBF5C1E149DD3007EACDC /* ConfigAdminTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigAdminTests.swift; sourceTree = "<group>"; };
 		87A2D0F01E1231F200236BEC /* SK4Config.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SK4Config.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A2D0F31E1231F200236BEC /* SK4Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SK4Config.h; sourceTree = "<group>"; };
 		87A2D0F41E1231F200236BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87A2D0F91E1231F200236BEC /* SK4ConfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK4ConfigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK4ConfigTests.swift; sourceTree = "<group>"; };
 		87A2D1001E1231F200236BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SK4Library.xcodeproj; path = ../SK4Library/SK4Library/SK4Library.xcodeproj; sourceTree = "<group>"; };
+		87A2D1501E12373100236BEC /* SK4ConfigAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigAction.swift; path = value/SK4ConfigAction.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1511E12373100236BEC /* SK4ConfigBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigBool.swift; path = value/SK4ConfigBool.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1521E12373100236BEC /* SK4ConfigCGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCGFloat.swift; path = value/SK4ConfigCGFloat.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1531E12373100236BEC /* SK4ConfigDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigDate.swift; path = value/SK4ConfigDate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1541E12373100236BEC /* SK4ConfigGenerics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigGenerics.swift; path = value/SK4ConfigGenerics.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1551E12373100236BEC /* SK4ConfigIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigIndex.swift; path = value/SK4ConfigIndex.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1561E12373100236BEC /* SK4ConfigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigInt.swift; path = value/SK4ConfigInt.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1571E12373100236BEC /* SK4ConfigMulti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigMulti.swift; path = value/SK4ConfigMulti.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1581E12373100236BEC /* SK4ConfigString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigString.swift; path = value/SK4ConfigString.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1591E12373100236BEC /* SK4ConfigUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigUIColor.swift; path = value/SK4ConfigUIColor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D15A1E12373100236BEC /* SK4ConfigUInt64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigUInt64.swift; path = value/SK4ConfigUInt64.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D15B1E12373100236BEC /* SK4ConfigValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigValue.swift; path = value/SK4ConfigValue.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1691E12375400236BEC /* SK4ConfigCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCell.swift; path = cell/SK4ConfigCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D16A1E12375400236BEC /* SK4ConfigCellChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellChoice.swift; path = cell/SK4ConfigCellChoice.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D16B1E12375400236BEC /* SK4ConfigCellColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellColor.swift; path = cell/SK4ConfigCellColor.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D16C1E12375400236BEC /* SK4ConfigCellColorIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellColorIndex.swift; path = cell/SK4ConfigCellColorIndex.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D16D1E12375400236BEC /* SK4ConfigCellDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellDate.swift; path = cell/SK4ConfigCellDate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D16E1E12375400236BEC /* SK4ConfigCellDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellDirectory.swift; path = cell/SK4ConfigCellDirectory.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D16F1E12375400236BEC /* SK4ConfigCellExec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellExec.swift; path = cell/SK4ConfigCellExec.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1701E12375400236BEC /* SK4ConfigCellLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellLabel.swift; path = cell/SK4ConfigCellLabel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1711E12375400236BEC /* SK4ConfigCellPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellPicker.swift; path = cell/SK4ConfigCellPicker.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1721E12375400236BEC /* SK4ConfigCellSegmented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellSegmented.swift; path = cell/SK4ConfigCellSegmented.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1731E12375400236BEC /* SK4ConfigCellSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellSwitch.swift; path = cell/SK4ConfigCellSwitch.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1741E12375400236BEC /* SK4ConfigCellTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellTextField.swift; path = cell/SK4ConfigCellTextField.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1751E12375400236BEC /* SK4ConfigCellTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCellTextView.swift; path = cell/SK4ConfigCellTextView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1841E12379C00236BEC /* SK4ConfigChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigChoiceViewController.swift; path = vc/SK4ConfigChoiceViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1851E12379C00236BEC /* SK4ConfigColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigColorViewController.swift; path = vc/SK4ConfigColorViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1861E12379C00236BEC /* SK4ConfigDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigDateViewController.swift; path = vc/SK4ConfigDateViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1871E12379C00236BEC /* SK4ConfigPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigPickerViewController.swift; path = vc/SK4ConfigPickerViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1881E12379C00236BEC /* SK4ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigViewController.swift; path = vc/SK4ConfigViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D18F1E1237DE00236BEC /* SK4ConfigTableAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigTableAdmin.swift; path = table/SK4ConfigTableAdmin.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1901E1237DE00236BEC /* SK4ConfigTableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigTableSection.swift; path = table/SK4ConfigTableSection.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1911E1237DE00236BEC /* SK4ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigTableViewController.swift; path = table/SK4ConfigTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1961E12381200236BEC /* SK4ConfigAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigAdmin.swift; path = admin/SK4ConfigAdmin.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		87A2D1971E12381200236BEC /* SK4ConfigSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SK4ConfigSection.swift; path = admin/SK4ConfigSection.swift; sourceTree = "<group>"; };
+		87A2D1981E12381200236BEC /* SK4ConfigUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigUserDefaults.swift; path = admin/SK4ConfigUserDefaults.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A2D19C1E12386E00236BEC /* SK4Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +149,7 @@
 				87A2D0F21E1231F200236BEC /* SK4Config */,
 				87A2D0FD1E1231F200236BEC /* SK4ConfigTests */,
 				87A2D0F11E1231F200236BEC /* Products */,
+				87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +166,11 @@
 			isa = PBXGroup;
 			children = (
 				87A2D0F31E1231F200236BEC /* SK4Config.h */,
+				87A2D1951E12380400236BEC /* admin */,
+				87A2D14F1E12372200236BEC /* value */,
+				87A2D1681E12374600236BEC /* cell */,
+				87A2D1831E12378F00236BEC /* vc */,
+				87A2D18E1E1237D100236BEC /* table */,
 				87A2D0F41E1231F200236BEC /* Info.plist */,
 			);
 			path = SK4Config;
@@ -81,9 +180,91 @@
 			isa = PBXGroup;
 			children = (
 				87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */,
+				873FBF581E149995007EACDC /* ConfigValueTests.swift */,
+				873FBF5C1E149DD3007EACDC /* ConfigAdminTests.swift */,
 				87A2D1001E1231F200236BEC /* Info.plist */,
 			);
 			path = SK4ConfigTests;
+			sourceTree = "<group>";
+		};
+		87A2D1471E1236BA00236BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D14C1E1236BA00236BEC /* SK4Library.framework */,
+				87A2D14E1E1236BA00236BEC /* SK4LibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A2D14F1E12372200236BEC /* value */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D1501E12373100236BEC /* SK4ConfigAction.swift */,
+				87A2D1511E12373100236BEC /* SK4ConfigBool.swift */,
+				87A2D1521E12373100236BEC /* SK4ConfigCGFloat.swift */,
+				87A2D1531E12373100236BEC /* SK4ConfigDate.swift */,
+				87A2D1541E12373100236BEC /* SK4ConfigGenerics.swift */,
+				87A2D1551E12373100236BEC /* SK4ConfigIndex.swift */,
+				87A2D1561E12373100236BEC /* SK4ConfigInt.swift */,
+				87A2D1571E12373100236BEC /* SK4ConfigMulti.swift */,
+				87A2D1581E12373100236BEC /* SK4ConfigString.swift */,
+				87A2D1591E12373100236BEC /* SK4ConfigUIColor.swift */,
+				87A2D15A1E12373100236BEC /* SK4ConfigUInt64.swift */,
+				87A2D15B1E12373100236BEC /* SK4ConfigValue.swift */,
+			);
+			name = value;
+			sourceTree = "<group>";
+		};
+		87A2D1681E12374600236BEC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D1691E12375400236BEC /* SK4ConfigCell.swift */,
+				87A2D16A1E12375400236BEC /* SK4ConfigCellChoice.swift */,
+				87A2D16B1E12375400236BEC /* SK4ConfigCellColor.swift */,
+				87A2D16C1E12375400236BEC /* SK4ConfigCellColorIndex.swift */,
+				87A2D16D1E12375400236BEC /* SK4ConfigCellDate.swift */,
+				87A2D16E1E12375400236BEC /* SK4ConfigCellDirectory.swift */,
+				87A2D16F1E12375400236BEC /* SK4ConfigCellExec.swift */,
+				87A2D1701E12375400236BEC /* SK4ConfigCellLabel.swift */,
+				87A2D1711E12375400236BEC /* SK4ConfigCellPicker.swift */,
+				87A2D1721E12375400236BEC /* SK4ConfigCellSegmented.swift */,
+				87A2D1731E12375400236BEC /* SK4ConfigCellSwitch.swift */,
+				87A2D1741E12375400236BEC /* SK4ConfigCellTextField.swift */,
+				87A2D1751E12375400236BEC /* SK4ConfigCellTextView.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		87A2D1831E12378F00236BEC /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D1841E12379C00236BEC /* SK4ConfigChoiceViewController.swift */,
+				87A2D1851E12379C00236BEC /* SK4ConfigColorViewController.swift */,
+				87A2D1861E12379C00236BEC /* SK4ConfigDateViewController.swift */,
+				87A2D1871E12379C00236BEC /* SK4ConfigPickerViewController.swift */,
+				87A2D1911E1237DE00236BEC /* SK4ConfigTableViewController.swift */,
+				87A2D1881E12379C00236BEC /* SK4ConfigViewController.swift */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		87A2D18E1E1237D100236BEC /* table */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D18F1E1237DE00236BEC /* SK4ConfigTableAdmin.swift */,
+				87A2D1901E1237DE00236BEC /* SK4ConfigTableSection.swift */,
+			);
+			name = table;
+			sourceTree = "<group>";
+		};
+		87A2D1951E12380400236BEC /* admin */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D1961E12381200236BEC /* SK4ConfigAdmin.swift */,
+				87A2D1971E12381200236BEC /* SK4ConfigSection.swift */,
+				87A2D1981E12381200236BEC /* SK4ConfigUserDefaults.swift */,
+			);
+			name = admin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +330,7 @@
 					87A2D0EF1E1231F200236BEC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 37RZ8UJ54G;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					87A2D0F81E1231F200236BEC = {
@@ -168,6 +350,12 @@
 			mainGroup = 87A2D0E61E1231F200236BEC;
 			productRefGroup = 87A2D0F11E1231F200236BEC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87A2D1471E1236BA00236BEC /* Products */;
+					ProjectRef = 87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				87A2D0EF1E1231F200236BEC /* SK4Config */,
@@ -175,6 +363,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		87A2D14C1E1236BA00236BEC /* SK4Library.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SK4Library.framework;
+			remoteRef = 87A2D14B1E1236BA00236BEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87A2D14E1E1236BA00236BEC /* SK4LibraryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SK4LibraryTests.xctest;
+			remoteRef = 87A2D14D1E1236BA00236BEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87A2D0EE1E1231F200236BEC /* Resources */ = {
@@ -198,6 +403,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A2D17B1E12375400236BEC /* SK4ConfigCellDirectory.swift in Sources */,
+				87A2D15F1E12373100236BEC /* SK4ConfigDate.swift in Sources */,
+				87A2D1661E12373100236BEC /* SK4ConfigUInt64.swift in Sources */,
+				87A2D1641E12373100236BEC /* SK4ConfigString.swift in Sources */,
+				87A2D1611E12373100236BEC /* SK4ConfigIndex.swift in Sources */,
+				87A2D1821E12375400236BEC /* SK4ConfigCellTextView.swift in Sources */,
+				87A2D1991E12381200236BEC /* SK4ConfigAdmin.swift in Sources */,
+				87A2D1761E12375400236BEC /* SK4ConfigCell.swift in Sources */,
+				87A2D17C1E12375400236BEC /* SK4ConfigCellExec.swift in Sources */,
+				87A2D1671E12373100236BEC /* SK4ConfigValue.swift in Sources */,
+				87A2D1811E12375400236BEC /* SK4ConfigCellTextField.swift in Sources */,
+				87A2D1631E12373100236BEC /* SK4ConfigMulti.swift in Sources */,
+				87A2D19A1E12381200236BEC /* SK4ConfigSection.swift in Sources */,
+				87A2D18B1E12379C00236BEC /* SK4ConfigDateViewController.swift in Sources */,
+				87A2D1791E12375400236BEC /* SK4ConfigCellColorIndex.swift in Sources */,
+				87A2D17E1E12375400236BEC /* SK4ConfigCellPicker.swift in Sources */,
+				87A2D1771E12375400236BEC /* SK4ConfigCellChoice.swift in Sources */,
+				87A2D19B1E12381200236BEC /* SK4ConfigUserDefaults.swift in Sources */,
+				87A2D1601E12373100236BEC /* SK4ConfigGenerics.swift in Sources */,
+				87A2D1921E1237DE00236BEC /* SK4ConfigTableAdmin.swift in Sources */,
+				87A2D18A1E12379C00236BEC /* SK4ConfigColorViewController.swift in Sources */,
+				87A2D15D1E12373100236BEC /* SK4ConfigBool.swift in Sources */,
+				87A2D1651E12373100236BEC /* SK4ConfigUIColor.swift in Sources */,
+				87A2D1941E1237DE00236BEC /* SK4ConfigTableViewController.swift in Sources */,
+				87A2D18C1E12379C00236BEC /* SK4ConfigPickerViewController.swift in Sources */,
+				87A2D1621E12373100236BEC /* SK4ConfigInt.swift in Sources */,
+				87A2D17D1E12375400236BEC /* SK4ConfigCellLabel.swift in Sources */,
+				87A2D17F1E12375400236BEC /* SK4ConfigCellSegmented.swift in Sources */,
+				87A2D15E1E12373100236BEC /* SK4ConfigCGFloat.swift in Sources */,
+				87A2D1781E12375400236BEC /* SK4ConfigCellColor.swift in Sources */,
+				87A2D1891E12379C00236BEC /* SK4ConfigChoiceViewController.swift in Sources */,
+				87A2D1931E1237DE00236BEC /* SK4ConfigTableSection.swift in Sources */,
+				87A2D15C1E12373100236BEC /* SK4ConfigAction.swift in Sources */,
+				87A2D17A1E12375400236BEC /* SK4ConfigCellDate.swift in Sources */,
+				87A2D1801E12375400236BEC /* SK4ConfigCellSwitch.swift in Sources */,
+				87A2D18D1E12379C00236BEC /* SK4ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +447,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				87A2D0FF1E1231F200236BEC /* SK4ConfigTests.swift in Sources */,
+				873FBF591E149995007EACDC /* ConfigValueTests.swift in Sources */,
+				873FBF5D1E149DD3007EACDC /* ConfigAdminTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +565,7 @@
 		87A2D1051E1231F200236BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 37RZ8UJ54G;
@@ -334,6 +578,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4Config";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +586,7 @@
 		87A2D1061E1231F200236BEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 37RZ8UJ54G;
@@ -360,6 +606,7 @@
 		87A2D1081E1231F200236BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 37RZ8UJ54G;
 				INFOPLIST_FILE = SK4ConfigTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +619,7 @@
 		87A2D1091E1231F200236BEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 37RZ8UJ54G;
 				INFOPLIST_FILE = SK4ConfigTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +648,7 @@
 				87A2D1061E1231F200236BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87A2D1071E1231F200236BEC /* Build configuration list for PBXNativeTarget "SK4ConfigTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +657,7 @@
 				87A2D1091E1231F200236BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
