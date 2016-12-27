@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A2D0FA1E1231F200236BEC /* SK4Config.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2D0F01E1231F200236BEC /* SK4Config.framework */; };
+		87A2D0FF1E1231F200236BEC /* SK4ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */; };
+		87A2D1011E1231F200236BEC /* SK4Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A2D0F31E1231F200236BEC /* SK4Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87A2D0FB1E1231F200236BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87A2D0E71E1231F200236BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A2D0EF1E1231F200236BEC;
+			remoteInfo = SK4Config;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87A2D0F01E1231F200236BEC /* SK4Config.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SK4Config.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A2D0F31E1231F200236BEC /* SK4Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SK4Config.h; sourceTree = "<group>"; };
+		87A2D0F41E1231F200236BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A2D0F91E1231F200236BEC /* SK4ConfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK4ConfigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK4ConfigTests.swift; sourceTree = "<group>"; };
+		87A2D1001E1231F200236BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A2D0EC1E1231F200236BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A2D0F61E1231F200236BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A2D0FA1E1231F200236BEC /* SK4Config.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87A2D0E61E1231F200236BEC = {
+			isa = PBXGroup;
+			children = (
+				87A2D0F21E1231F200236BEC /* SK4Config */,
+				87A2D0FD1E1231F200236BEC /* SK4ConfigTests */,
+				87A2D0F11E1231F200236BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87A2D0F11E1231F200236BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D0F01E1231F200236BEC /* SK4Config.framework */,
+				87A2D0F91E1231F200236BEC /* SK4ConfigTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A2D0F21E1231F200236BEC /* SK4Config */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D0F31E1231F200236BEC /* SK4Config.h */,
+				87A2D0F41E1231F200236BEC /* Info.plist */,
+			);
+			path = SK4Config;
+			sourceTree = "<group>";
+		};
+		87A2D0FD1E1231F200236BEC /* SK4ConfigTests */ = {
+			isa = PBXGroup;
+			children = (
+				87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */,
+				87A2D1001E1231F200236BEC /* Info.plist */,
+			);
+			path = SK4ConfigTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87A2D0ED1E1231F200236BEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A2D1011E1231F200236BEC /* SK4Config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87A2D0EF1E1231F200236BEC /* SK4Config */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A2D1041E1231F200236BEC /* Build configuration list for PBXNativeTarget "SK4Config" */;
+			buildPhases = (
+				87A2D0EB1E1231F200236BEC /* Sources */,
+				87A2D0EC1E1231F200236BEC /* Frameworks */,
+				87A2D0ED1E1231F200236BEC /* Headers */,
+				87A2D0EE1E1231F200236BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK4Config;
+			productName = SK4Config;
+			productReference = 87A2D0F01E1231F200236BEC /* SK4Config.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87A2D0F81E1231F200236BEC /* SK4ConfigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A2D1071E1231F200236BEC /* Build configuration list for PBXNativeTarget "SK4ConfigTests" */;
+			buildPhases = (
+				87A2D0F51E1231F200236BEC /* Sources */,
+				87A2D0F61E1231F200236BEC /* Frameworks */,
+				87A2D0F71E1231F200236BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87A2D0FC1E1231F200236BEC /* PBXTargetDependency */,
+			);
+			name = SK4ConfigTests;
+			productName = SK4ConfigTests;
+			productReference = 87A2D0F91E1231F200236BEC /* SK4ConfigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A2D0E71E1231F200236BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AxeRoad;
+				TargetAttributes = {
+					87A2D0EF1E1231F200236BEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 37RZ8UJ54G;
+						ProvisioningStyle = Automatic;
+					};
+					87A2D0F81E1231F200236BEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 37RZ8UJ54G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87A2D0EA1E1231F200236BEC /* Build configuration list for PBXProject "SK4Config" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87A2D0E61E1231F200236BEC;
+			productRefGroup = 87A2D0F11E1231F200236BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A2D0EF1E1231F200236BEC /* SK4Config */,
+				87A2D0F81E1231F200236BEC /* SK4ConfigTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A2D0EE1E1231F200236BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A2D0F71E1231F200236BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A2D0EB1E1231F200236BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A2D0F51E1231F200236BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A2D0FF1E1231F200236BEC /* SK4ConfigTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87A2D0FC1E1231F200236BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87A2D0EF1E1231F200236BEC /* SK4Config */;
+			targetProxy = 87A2D0FB1E1231F200236BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87A2D1021E1231F200236BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87A2D1031E1231F200236BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87A2D1051E1231F200236BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 37RZ8UJ54G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SK4Config/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4Config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87A2D1061E1231F200236BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 37RZ8UJ54G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SK4Config/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4Config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87A2D1081E1231F200236BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 37RZ8UJ54G;
+				INFOPLIST_FILE = SK4ConfigTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4ConfigTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87A2D1091E1231F200236BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 37RZ8UJ54G;
+				INFOPLIST_FILE = SK4ConfigTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.SK4ConfigTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A2D0EA1E1231F200236BEC /* Build configuration list for PBXProject "SK4Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A2D1021E1231F200236BEC /* Debug */,
+				87A2D1031E1231F200236BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A2D1041E1231F200236BEC /* Build configuration list for PBXNativeTarget "SK4Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A2D1051E1231F200236BEC /* Debug */,
+				87A2D1061E1231F200236BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87A2D1071E1231F200236BEC /* Build configuration list for PBXNativeTarget "SK4ConfigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A2D1081E1231F200236BEC /* Debug */,
+				87A2D1091E1231F200236BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A2D0E71E1231F200236BEC /* Project object */;
+}
