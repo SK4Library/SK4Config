@@ -32,7 +32,8 @@ class SK4ConfigColorViewController: UIViewController {
 		let maker = SK4AutoLayout(viewController: self)
 		maker.addDic(name: "picker", view: picker)
 
-		let wy = UIDevice.isPad ? 500 : 240
+		let wy = SK4App.isPad ?  500 : 240
+
 		maker.addFormat("V:[topLayoutGuide]-16-[picker(>=\(wy))]")
 		maker.addFormat("H:|-[picker]-|")
 		view.addConstraints(maker.constraints)

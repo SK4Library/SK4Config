@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		873FBF591E149995007EACDC /* ConfigValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FBF581E149995007EACDC /* ConfigValueTests.swift */; };
 		873FBF5D1E149DD3007EACDC /* ConfigAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873FBF5C1E149DD3007EACDC /* ConfigAdminTests.swift */; };
+		878549BF1E15F0C900615EE0 /* SK4Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878549BE1E15F0C900615EE0 /* SK4Library.framework */; };
 		87A2D0FA1E1231F200236BEC /* SK4Config.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2D0F01E1231F200236BEC /* SK4Config.framework */; };
 		87A2D0FF1E1231F200236BEC /* SK4ConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */; };
 		87A2D1011E1231F200236BEC /* SK4Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A2D0F31E1231F200236BEC /* SK4Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,7 +49,6 @@
 		87A2D1991E12381200236BEC /* SK4ConfigAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1961E12381200236BEC /* SK4ConfigAdmin.swift */; };
 		87A2D19A1E12381200236BEC /* SK4ConfigSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1971E12381200236BEC /* SK4ConfigSection.swift */; };
 		87A2D19B1E12381200236BEC /* SK4ConfigUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2D1981E12381200236BEC /* SK4ConfigUserDefaults.swift */; };
-		87A2D19C1E12386E00236BEC /* SK4Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A2D14C1E1236BA00236BEC /* SK4Library.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,32 +59,18 @@
 			remoteGlobalIDString = 87A2D0EF1E1231F200236BEC;
 			remoteInfo = SK4Config;
 		};
-		87A2D14B1E1236BA00236BEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 874288591DFF79E100E13B40;
-			remoteInfo = SK4Library;
-		};
-		87A2D14D1E1236BA00236BEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 874288621DFF79E100E13B40;
-			remoteInfo = SK4LibraryTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		873FBF581E149995007EACDC /* ConfigValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigValueTests.swift; sourceTree = "<group>"; };
 		873FBF5C1E149DD3007EACDC /* ConfigAdminTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigAdminTests.swift; sourceTree = "<group>"; };
+		878549BE1E15F0C900615EE0 /* SK4Library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SK4Library.framework; path = Carthage/Build/iOS/SK4Library.framework; sourceTree = "<group>"; };
 		87A2D0F01E1231F200236BEC /* SK4Config.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SK4Config.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A2D0F31E1231F200236BEC /* SK4Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SK4Config.h; sourceTree = "<group>"; };
 		87A2D0F41E1231F200236BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87A2D0F91E1231F200236BEC /* SK4ConfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK4ConfigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A2D0FE1E1231F200236BEC /* SK4ConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK4ConfigTests.swift; sourceTree = "<group>"; };
 		87A2D1001E1231F200236BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SK4Library.xcodeproj; path = ../SK4Library/SK4Library/SK4Library.xcodeproj; sourceTree = "<group>"; };
 		87A2D1501E12373100236BEC /* SK4ConfigAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigAction.swift; path = value/SK4ConfigAction.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2D1511E12373100236BEC /* SK4ConfigBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigBool.swift; path = value/SK4ConfigBool.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		87A2D1521E12373100236BEC /* SK4ConfigCGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SK4ConfigCGFloat.swift; path = value/SK4ConfigCGFloat.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -128,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87A2D19C1E12386E00236BEC /* SK4Library.framework in Frameworks */,
+				878549BF1E15F0C900615EE0 /* SK4Library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,13 +129,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		878549BD1E15F0C900615EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878549BE1E15F0C900615EE0 /* SK4Library.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87A2D0E61E1231F200236BEC = {
 			isa = PBXGroup;
 			children = (
 				87A2D0F21E1231F200236BEC /* SK4Config */,
 				87A2D0FD1E1231F200236BEC /* SK4ConfigTests */,
 				87A2D0F11E1231F200236BEC /* Products */,
-				87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */,
+				878549BD1E15F0C900615EE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,15 +179,6 @@
 				87A2D1001E1231F200236BEC /* Info.plist */,
 			);
 			path = SK4ConfigTests;
-			sourceTree = "<group>";
-		};
-		87A2D1471E1236BA00236BEC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				87A2D14C1E1236BA00236BEC /* SK4Library.framework */,
-				87A2D14E1E1236BA00236BEC /* SK4LibraryTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		87A2D14F1E12372200236BEC /* value */ = {
@@ -350,12 +335,6 @@
 			mainGroup = 87A2D0E61E1231F200236BEC;
 			productRefGroup = 87A2D0F11E1231F200236BEC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 87A2D1471E1236BA00236BEC /* Products */;
-					ProjectRef = 87A2D1461E1236BA00236BEC /* SK4Library.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				87A2D0EF1E1231F200236BEC /* SK4Config */,
@@ -363,23 +342,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		87A2D14C1E1236BA00236BEC /* SK4Library.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SK4Library.framework;
-			remoteRef = 87A2D14B1E1236BA00236BEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		87A2D14E1E1236BA00236BEC /* SK4LibraryTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SK4LibraryTests.xctest;
-			remoteRef = 87A2D14D1E1236BA00236BEC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		87A2D0EE1E1231F200236BEC /* Resources */ = {
@@ -572,6 +534,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SK4Config/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -593,6 +559,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SK4Config/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

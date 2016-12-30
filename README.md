@@ -21,10 +21,7 @@ https://github.com/SK4Library/SK4Library
 
 ## 説明書
 
-今のところありません。デモを用意したのでそちらをご覧下さい。
-
-SK4Library/SK4ConfigDemo  
-https://github.com/SK4Library/SK4ConfigDemo  
+今のところありません。
 
 
 ## 使い方
