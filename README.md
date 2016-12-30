@@ -1,5 +1,6 @@
 
-# SK4Config
+# SK4Config [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/SK4Library/SK4Config/master/LICENSE.txt) [![GitHub release](https://img.shields.io/github/release/carthage/carthage.svg)](https://github.com/SK4Library/SK4Config/releases)
+
 
 SK4Configは、設定画面っぽい機能をそこそこ簡単につくれるようになるフレームワークです。
 
